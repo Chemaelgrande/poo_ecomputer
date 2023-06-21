@@ -26,3 +26,15 @@ class Cuadrado {
   int get area => _area;
   int get lado => _lado;
 }
+
+void main() {
+  Cuadrado cuadrado1 = new Cuadrado();
+  Cuadrado cuadrado2 = new Cuadrado();
+  Cuadrado cuadrado3 = new Cuadrado();
+  Cuadrado cuadrado4 = Cuadrado();
+
+  cuadrado1.lado = 10;
+
+  print(cuadrado1.lado);
+  print(cuadrado1.area);
+}
