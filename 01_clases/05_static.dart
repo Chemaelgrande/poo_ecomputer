@@ -4,7 +4,7 @@ class Herramientas {
     'LLave inglesa',
     'Destornillador',
   ];
-  static const List<String> listado2 = [
+  static final List<String> listado2 = [
     'Martillo',
     'LLave inglesa',
     'Destornillador',
@@ -28,6 +28,10 @@ void main() {
   print(Herramientas.listado2 == Herramientas.listado3); // TRUE
 
   print(Herramientas.imprimirListado);
+
+  Herramientas.listado2.add("New Element");
+  Herramientas.listado3.add("New Element");
+  print(Herramientas.listado2);
 }
 
 

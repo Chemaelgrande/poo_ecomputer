@@ -31,6 +31,8 @@ void main() {
   const String var3 = "Jose";
   const String var4 = "Jose";
 
+  //var2 = "OtroValor";
+
   print(var1 == var2); // TRUE
   print(var1 == var3); // TRUE
   print(var3 == var4); // TRUE
