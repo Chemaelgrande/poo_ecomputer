@@ -29,6 +29,8 @@ void main() {
   // );
 
   Cliente persona1 = Cliente(20, "Jose");
+  // Cliente persona1 = Cliente(edadActual: 20, nombreActual: "Joseee");
 
-  print(persona1.nombre);
+  //print(persona1.nombre);
+  persona1.imprimirNombre();
 }
